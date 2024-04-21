@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-xl-3  col-md-6 col-lg-6 col-12">
                     <div className="footer_desc  ">
-                        <img src="images/logo.png" className="img-fluid" alt="img" />
+                        <img src="/images/logo.png" className="img-fluid" alt="img" />
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
                     </div>
                 </div>
@@ -64,12 +64,12 @@ const Footer = () => {
                     <div className="insta-gal mt-5 ">
                         <h4>Instagram</h4>
                         <ul>
-                            <li><img src="images/inta-img-1.jpg" alt="images"/></li>
-                            <li><img src="images/inta-img-2.jpg" alt="images"/></li>
-                            <li><img src="images/inta-img-3.jpg" alt="images"/></li>
-                            <li><img src="images/inta-img-4.jpg" alt="images"/></li>
-                            <li><img src="images/inta-img-5.jpg" alt="images"/></li>
-                            <li><img src="images/inta-img-1.jpg" alt="images"/></li>
+                            <li><img src="/images/inta-img-1.jpg" alt="images"/></li>
+                            <li><img src="/images/inta-img-2.jpg" alt="images"/></li>
+                            <li><img src="/images/inta-img-3.jpg" alt="images"/></li>
+                            <li><img src="/images/inta-img-4.jpg" alt="images"/></li>
+                            <li><img src="/images/inta-img-5.jpg" alt="images"/></li>
+                            <li><img src="/images/inta-img-1.jpg" alt="images"/></li>
                         </ul>
                     </div>
                 </div>

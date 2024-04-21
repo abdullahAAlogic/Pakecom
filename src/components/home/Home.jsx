@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../layout/Layout";
 import Tabs from "../tabs/Tabs";
+import Blogs from "../blogs/Blogs"
 
 const Home = () => {
   return (
@@ -126,6 +127,10 @@ const Home = () => {
 
         {/* product tabs section */}
         <Tabs/>
+
+
+        {/* Blogs Section */}
+        <Blogs/>
       </Layout>
     </div>
   );

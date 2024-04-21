@@ -244,7 +244,7 @@ ul {
 
 h1 {
     font-family: facon;
-    font-size: 108px;
+    font-size: 75px;
     line-height: 115px;
     color: rgb(0, 225, 255);
 }
@@ -1537,7 +1537,9 @@ html {
 .inner-baner-txt h1 {
     color: white;
 }
-
+.inner-baner-txt h4{
+    color: white;
+}
 .inner-banner .innr-bnr-mn {
     position: absolute;
     top: 7%;
@@ -2513,6 +2515,17 @@ span.minus {
 .productdtl-mn-fr .slick-slide {
     margin: 0px;
 }
+.prdct-dtl-sl-swiper .mySwipernav {
+    margin-top: 10px;
+}
+
+.prdct-dtl-sl-swiper .mySwipernav .swiper-slide {
+    border: 2px solid transparent;
+}
+
+.prdct-dtl-sl-swiper .mySwipernav .swiper-slide.swiper-slide-thumb-active {
+    border-color: #01e1ff;
+}
 
 .prdct-dtl-txt h6 {
     background-color: rgb(0, 225, 255);
@@ -2863,7 +2876,9 @@ ul.qt-shp .num-in {
     font-size: 13px;
     padding: 12px 20px;
 }
-
+.footer_social a:hover {
+    background: #01e1ff;
+}
 @media only screen and (min-width: 200px) and (max-width: 519px) {
     .footer_contact li i {
         font-size: 20px;

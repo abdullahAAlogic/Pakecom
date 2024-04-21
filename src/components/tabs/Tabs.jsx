@@ -4,13 +4,13 @@ import ProductCard from '../productCard/ProductCard';
 import { Grid } from 'react-loader-spinner'
 const Tabs = () => {
 
-    const [activeTab, setActiveTab] = useState(1);
+    const [activeTab, setActiveTab] = useState(0);
     const {isLoading , serverError ,apiData}= UseFetch(
         "GET",
-        `https://api.escuelajs.co/api/v1/products/?categoryId=${activeTab}&limit=6`,
+        `https://api.escuelajs.co/api/v1/products/?categoryId=${activeTab}`,
         {}
     ) 
-    console.log("activeTab",apiData)
+    // console.log("activeTab",apiData)
 
     const handleTabClick = (tab)=>{
         setActiveTab(tab)
